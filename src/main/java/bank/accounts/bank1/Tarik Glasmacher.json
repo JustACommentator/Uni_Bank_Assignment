@@ -1,0 +1,42 @@
+[
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Tarik Glasmacher",
+      "recipient": "Willi Damian Kuehrt",
+      "date": "02.12.2021",
+      "amount": 50.0,
+      "description": "Eine labbrige alte Pommes"
+    }
+  },
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Tarik Glasmacher",
+      "recipient": "Joel Ngoe",
+      "date": "02.12.2021",
+      "amount": 5000.0,
+      "description": "Extrem gute Pinacolada"
+    }
+  },
+  {
+    "CLASSNAME": "IncomingTransfer",
+    "INSTANCE": {
+      "sender": "Ute Schwarz",
+      "recipient": "Tarik Glasmacher",
+      "date": "02.12.2021",
+      "amount": 30000.0,
+      "description": "Schweigegeld"
+    }
+  },
+  {
+    "CLASSNAME": "Payment",
+    "INSTANCE": {
+      "incomingInterest": 0.025,
+      "outgoingInterest": 0.05,
+      "date": "02.12.2021",
+      "amount": 1000.0,
+      "description": "BeispielPayment"
+    }
+  }
+]

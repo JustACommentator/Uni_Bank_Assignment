@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="p5.bank.MainviewController">
+    <children>
+        <GridPane prefHeight="900.0" prefWidth="320.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="1600.0" minWidth="0.0" prefWidth="320.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="250.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="886.0" minHeight="10.0" prefHeight="860.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="addAccount" mnemonicParsing="false" prefHeight="40.0" prefWidth="320.0" text="Neuen Account hinzufügen" onAction="#addAccount"/>
+                <ListView fx:id="accountList" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                    <contextMenu>
+                        <ContextMenu fx:id="accountContext">
+                            <items>
+                                <MenuItem onAction="#loadAccountView" text="Auswählen" />
+                                <MenuItem onAction="#deleteAccount" text="Löschen" />
+                            </items>
+                        </ContextMenu>
+                    </contextMenu>
+                </ListView>
+            </children>
+        </GridPane>
+        <AnchorPane fx:id="accountInfo" layoutX="320.0" prefHeight="900.0" prefWidth="1280.0" />
+    </children>
+</AnchorPane>

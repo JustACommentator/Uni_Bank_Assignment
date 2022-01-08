@@ -1,0 +1,32 @@
+[
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Max Mustermann",
+      "recipient": "IdiotScalper42069",
+      "date": "19.11.2021",
+      "amount": 950.0,
+      "description": "Ueberteuerte RTX 3070 von eBay"
+    }
+  },
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Max Mustermann",
+      "recipient": "Domino\u0027s Pizza",
+      "date": "19.11.2021",
+      "amount": 50.0,
+      "description": "Pizza mit \"Supreme\" Aufdruck"
+    }
+  },
+  {
+    "CLASSNAME": "IncomingTransfer",
+    "INSTANCE": {
+      "sender": "Doener Hebab",
+      "recipient": "Max Mustermann",
+      "date": "19.11.2021",
+      "amount": 3500.0,
+      "description": "Gehalt"
+    }
+  }
+]
